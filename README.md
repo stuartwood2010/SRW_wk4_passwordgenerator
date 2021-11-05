@@ -14,6 +14,4 @@ Once all of the propmts have been answered, the generator selects approved chara
 
 https://stuartwood2010.github.io/SRW_wk4_passwordgenerator/
 
-
-
-
+![Screenshot 2021-11-05 115437](https://user-images.githubusercontent.com/92122028/140556594-e97a3948-0147-4a2b-ab65-05d3d2b0fbe0.png)
