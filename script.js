@@ -4,10 +4,11 @@ let Upper = true;
 let lower = true;
 let numbers = true;
 let specialchars = true;
-let characterarray = [];
+
 
 function generatePassword() {
   let randomChars = [];
+  let characterarray = [];
   /*When the user clicks the generate button, prompt the user to pick a password length between 8 and 128 characters */
   const charlength = prompt("How many characters would you like the password to contain? Minimum = 8, Maximum = 128");
     
