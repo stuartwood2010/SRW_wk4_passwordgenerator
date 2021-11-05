@@ -53,10 +53,10 @@ function generatePassword() {
   }
 
   /*Generates a random character from the characterarray and logs it to the console*/
-     for (let i = 0; i < parseInt(charlength); i++){
-     randomchar = Math.floor(Math.random() * characterarray.length);
-     /*Adds the random character generated above to the rndomChars array*/
-     randomChars.push(randomchar);
+  for (let i = 0; i < parseInt(charlength); i++){
+    randomchar = Math.floor(Math.random() * characterarray.length);
+    /*Adds the random character generated above to the rndomChars array*/
+    randomChars.push(characterarray[randomchar]);
     }
     /*Logs the randomChars array to the console*/
     console.log(randomChars);
@@ -64,7 +64,6 @@ function generatePassword() {
     let password = randomChars.join("");
     console.log(password);
     return password;
-
 }
 // Write password to the #password input
 function writePassword() {
@@ -76,4 +75,3 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
